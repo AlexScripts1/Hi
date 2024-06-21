@@ -46,7 +46,7 @@ TextBox.ClearTextOnFocus = false
 TextBox.MultiLine = true
 
 ExecuteButton.Parent = Frame
-ExecuteButton.Size = UDim2.new(0.4, 0, 0.3 0)
+ExecuteButton.Size = UDim2.new(0.4, 0, 0.3, 0)
 ExecuteButton.Position = UDim2.new(0.1, 0, 0.6, 0)
 ExecuteButton.Font = Enum.Font.GothamBold
 ExecuteButton.Text = "Execute"
@@ -78,7 +78,7 @@ CloseButton.BackgroundTransparency = 0.2
 -- MinimizeButton properties
 MinimizeButton.Parent = Frame
 MinimizeButton.Size = UDim2.new(0.2, 0, 0.1, 0)
-MinimizeButton.Position = UDim2.new(0.6, 0, 0, 0)
+MinimizeButton.Position = UDim2.new(0.0, 0, 0, 0)
 MinimizeButton.Font = Enum.Font.GothamBold
 MinimizeButton.Text = "_"
 MinimizeButton.TextSize = 18
